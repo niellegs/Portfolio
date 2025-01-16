@@ -1,0 +1,29 @@
+.text {
+    background-color: rgba(238, 17, 53, 0.2);
+    border: 0.1rem solid rgb(238, 17, 53);
+    position: absolute;
+    width: 10rem;
+    text-align: center;
+}
+
+.text::before {
+    content: ''; /* Necessário para ::before renderizar */
+    width: 0.2rem; /* Espessura da linha */
+    height: 100%; /* Altura da linha */
+    background-color: rgb(238, 17, 53); /* Cor da linha */
+    position: absolute;
+    left: 11rem; /* Ajusta a posição da linha */
+    top: 0;
+    transform: rotate(-90deg);
+}
+
+
+.left {
+    transform: rotate(-90deg);
+   translate: -47vw;
+}
+
+.right {
+    transform: rotate(90deg);
+    translate: 47vw;
+}

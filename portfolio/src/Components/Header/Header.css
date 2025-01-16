@@ -1,0 +1,27 @@
+header {
+    width: 100vw;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1000; /* Camada superior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: Adiciona sombra */
+}
+
+
+ul li {
+   width: 10vw;
+   list-style-type: none;
+   font-size: 1.1rem;
+}
+
+a, li {
+    color: #EE1135;
+    transition: .2s ease-in-out;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #7001d7;
+}

@@ -1,0 +1,57 @@
+.container-hero {
+    width: 100vw;
+    height: 100vh;
+    background: url(../../assets/background-hero.png) center center / cover no-repeat;
+    position: relative;
+}
+
+.container-info {
+    width: 30vw;
+    text-align: center;
+}
+
+.container-info div {
+    width: 100%;
+}
+
+.container-social {
+    transform: translate(-32vw, -22vh);
+}
+
+h1 {
+    font-size: 2.7rem;
+    animation: textGradient 4s infinite linear;
+}
+
+p {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.media-logo {
+    color: #EE1135;
+    transition: ease-in-out .4s;
+}
+
+button {
+    font-size: 1.7rem;
+    padding: .5rem;
+    width: 40%;
+    background-color: transparent;
+    border: .1rem solid #EE1135;
+}
+
+.primary-button {
+    background-color: #EE1135;
+    color: #110506;
+}
+
+.primary-button a {
+    color: #110506;
+}
+
+@keyframes textGradient {
+    0% { color: #EE1135; }
+    50% { color: #7001d7; }
+    100% { color: #EE1135; }
+}
