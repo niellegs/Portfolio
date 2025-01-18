@@ -1,5 +1,35 @@
-.container-AboutMe {
+.container_aboutme {
     background-color: #110506;
     width: 100vw;
     height: 100vh;
+    color: rgb(255,255,242);
+}
+
+.container_aboutme > div {
+    width: 75%;
+    height: 75%;
+    background-color: rgba(238, 17, 53, .3);
+    border: rgb(238, 17, 53) solid .1rem;
+}
+
+.aboutme_photo {
+    background-color: blue;
+    width: 30%;
+    height: 70%;
+    margin: 2rem;
+}
+
+.aboutme_title p, .aboutme_title h2 {
+    line-height: 2rem;
+}
+
+.aboutme_text {
+    width: 60%;
+    height: 70%;
+    padding: 2rem;
+    
+}
+
+.aboutme_text p {
+    font-size: 1.1rem;
 }

@@ -1,18 +1,26 @@
 import "./AboutMe.css"
+import SideTitle from "../SideTitle/SideTitle";
 
 function AboutMe() {
     return (
-        <div className="container-AboutMe">
-            <div className="AboutMe-photo">
-            </div>
-            <div className="AboutMe-text">
-                <p>_whois</p>
-                <h2>Danielle Gomes</h2>
-                <p>Desenvolvedora Full-Stack</p>
-                <p>Atualmente sendo uma estudante viciada em cafeína e livros, procuro desenvolver sites de alta qualidade concentrados em equilibrar beleza e usabilidade. </p>
-                <div className="buttons">
-                    <button>Fiverr</button>
-                    <button>99jobs</button>
+        <div className="container_aboutme display-flex justify-center align-center">
+            <SideTitle text="Sobre Mim" side="right" />
+            <div className="display-flex align-center justify-center">
+                <div className="aboutme_photo">
+                </div>
+                <div className="aboutme_text">
+                        <div className="aboutme_title">
+                        <p>_whois</p>
+                        <h2 className="title">Danielle Gomes</h2>
+                        <p>Desenvolvedora Full-Stack</p>
+                    </div>
+                    <p>Atualmente sendo uma estudante viciada em cafeína e livros, procuro desenvolver sites de alta qualidade concentrados em equilibrar beleza e usabilidade. </p>
+                    <button>
+                        <a href="#">Fiverr</a>
+                    </button>
+                    <button>
+                        <a href="#">99jobs</a>
+                    </button>
                 </div>
             </div>
         </div>

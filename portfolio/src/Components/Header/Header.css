@@ -25,3 +25,9 @@ a:hover {
     cursor: pointer;
     color: #7001d7;
 }
+
+.scrolled {
+    transition: .7s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
