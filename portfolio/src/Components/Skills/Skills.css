@@ -1,0 +1,25 @@
+.skill_container {
+    background-color: #110506;;
+    width: 100vw;
+    height: 100vh;
+} 
+
+.skill_menu {
+    display: flex;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.skill_container button {
+    background-color: rgba(238, 17, 53, .2);
+    color: rgba(238, 17, 53);
+}
+
+.skill_container button:hover {
+    cursor: pointer;
+    color: rgba(112, 1, 215);
+    background-color: rgba(112, 1, 215, .1);
+    text-align: center;
+    border: #7001d7 1px solid;
+}

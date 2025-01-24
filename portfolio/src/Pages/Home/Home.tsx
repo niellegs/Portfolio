@@ -5,6 +5,7 @@ import Header from "../../Components/Header/Header";
 import Hero from "../../Components/Hero/Hero";
 import AboutMe from "../../Components/AboutMe/AboutMe";
 import Hobbies from "../../Components/Hobbies/Hobbies";
+import Skills from "../../Components/Skills/Skills";
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
         <Hero />
         <AboutMe />
         <Hobbies />
+        <Skills />
         </>
     )
 }

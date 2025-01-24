@@ -2,3 +2,12 @@
     background-color: black;
     color: #7001d7;
 }
+
+.hobbie {
+    background-color: rgba(112, 1, 215, .1)
+    ;
+    text-align: center;
+    border: #7001d7 1px solid;
+    width: 10rem;
+    height: 10rem;
+}

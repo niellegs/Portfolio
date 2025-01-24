@@ -12,19 +12,19 @@ function Hobbies() {
         <div className="container_hobbies">
             <h2>Hobbies</h2>
             <div className="hobbies display-flex justify-center align-center">
-                <div className="hobbie">
+                <div className="hobbie display-flex align-center justify-center direction-column">
                     <img src={GameLogo} alt="" />
                     <p>Jogos</p>
                 </div>
-                <div className="hobbie">
+                <div className="hobbie display-flex align-center justify-center direction-column">
                     <img src={GymLogo} alt="" />
                     <p>Academia</p>
                 </div>
-                <div className="hobbie">
+                <div className="hobbie display-flex align-center justify-center direction-column">
                     <img src={BookLogo} alt="" />
                     <p>Leitura</p>
                 </div>
-                <div className="hobbie">
+                <div className="hobbie display-flex align-center justify-center direction-column">
                     <img src={CameraLogo} alt="" />
                     <p>Fotografia</p>
                 </div>
