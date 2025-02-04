@@ -8,6 +8,7 @@ import Hobbies from "../../Components/Hobbies/Hobbies";
 import Skills from "../../Components/Skills/Skills";
 import Portfolio from "../../Components/Portfolio/Portfolio";
 import Contact from "../../Components/Contact/Contact";
+import Footer from "../../Components/Footer/Footer";
 
 function Home() {
     return (
@@ -19,6 +20,7 @@ function Home() {
         <Skills />
         <Portfolio />
         <Contact />
+        <Footer />
         </>
     )
 }

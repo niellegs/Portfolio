@@ -2,7 +2,9 @@
     width: 100vw;
     height: 100vh;
     background: url(../../assets/background-hero.png) center center / cover no-repeat;
+    background-attachment: fixed; /* Isso vai criar o efeito de parallax no fundo */
     position: relative;
+    overflow: hidden;
 }
 
 .container-info {
@@ -15,7 +17,7 @@
 }
 
 .container-social {
-    transform: translate(-32vw, -22vh);
+    transform: translate(-30vw, -22vh);
 }
 
 h1 {
@@ -28,9 +30,9 @@ p {
     margin-bottom: 2rem;
 }
 
-.media-logo {
-    color: #EE1135;
-    transition: ease-in-out .4s;
+a i {
+    font-size: 2.5rem;
+    padding-top: .5rem;
 }
 
 button {

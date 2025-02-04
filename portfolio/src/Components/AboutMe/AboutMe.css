@@ -3,6 +3,7 @@
     width: 100vw;
     height: 100vh;
     color: rgb(255,255,242);
+    position: absolute;
 }
 
 .container_aboutme > div {
