@@ -32,7 +32,7 @@ function AboutMe() {
                     </div>
                     <p>Atualmente sendo uma estudante viciada em cafeína e livros, procuro desenvolver sites de alta qualidade concentrados em equilibrar beleza e usabilidade. </p>
                     <button>
-                        <a href="#">Fiverr</a>
+                        <a href="https://br.fiverr.com/ughhlynx?public_mode=true" target="_blank">Fiverr</a>
                     </button>
                     <button>
                         <a href="#">99jobs</a>

@@ -10,18 +10,18 @@ header {
 }
 
 
-ul li {
+header ul li {
    width: 10vw;
    list-style-type: none;
    font-size: 1.1rem;
 }
 
-a, li {
+header a, li {
     color: #EE1135;
     transition: .2s ease-in-out;
 }
 
-a:hover {
+header a:hover {
     cursor: pointer;
     color: #7001d7;
 }

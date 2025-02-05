@@ -1,13 +1,14 @@
 .container_hobbies {
     background-color: black;
     color: #7001d7;
+    margin-top: 30vh;
+    z-index: 1;
 }
 
 .hobbie {
-    background-color: rgba(112, 1, 215, .1)
-    ;
+    background-color: rgba(112, 1, 215, 0.1); /* Ajustado o ponto e vírgula */
     text-align: center;
-    border: #7001d7 1px solid;
+    border: 1px solid #7001d7; /* Ordem padrão */
     width: 10rem;
     height: 10rem;
 }

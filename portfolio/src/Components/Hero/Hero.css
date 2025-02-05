@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     background: url(../../assets/background-hero.png) center center / cover no-repeat;
-    background-attachment: fixed; /* Isso vai criar o efeito de parallax no fundo */
+    background-attachment: fixed;
     position: relative;
     overflow: hidden;
 }
@@ -35,20 +35,29 @@ a i {
     padding-top: .5rem;
 }
 
-button {
+.container-info button {
     font-size: 1.7rem;
     padding: .5rem;
     width: 40%;
     background-color: transparent;
     border: .1rem solid #EE1135;
+    
 }
 
-.primary-button {
+.container-info a, .container-social i {
+    color: #EE1135;
+    transition: .4s ease-in-out;
+}
+
+.container-info a:hover, .container-social i:hover {
+    color: #7001d7;
+}
+
+.container-info .primary-button {
     background-color: #EE1135;
-    color: #110506;
 }
 
-.primary-button a {
+.container-info .primary-button a {
     color: #110506;
 }
 

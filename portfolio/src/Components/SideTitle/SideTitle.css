@@ -4,6 +4,8 @@
     position: absolute;
     width: 10rem;
     text-align: center;
+    font-size: 1.5rem;
+    color: rgb(238, 17, 53);
 }
 
 .text::before {
@@ -25,5 +27,5 @@
 
 .right {
     transform: rotate(90deg);
-    translate: 47vw;
+    translate: 45vw;
 }
