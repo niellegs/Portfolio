@@ -1,14 +1,23 @@
 .skill_container {
     background-color: #110506;;
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
 } 
 
 .skill_menu {
     display: flex;
-    width: 60vw;
+    width: 100vw;
     margin: 0 auto;
     padding: 2rem 0;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.skill_menu button {
+    width: 20vw;
+    height: 5vh;
+    font-size: 1.5rem;
+    border: rgba(238, 17, 53) .1rem solid;
 }
 
 .skill_container button {
@@ -27,13 +36,15 @@
 
 
 .skill_info {
-    width: 50vw;
+    width: 40vw;
     color: #7001d7;
     text-align: center;
+    padding: 1rem 3rem;
 }
 
 .skill_info p {
     margin: 1rem 0rem;
+    font-size: 1.3rem;
 }
 
 
@@ -44,6 +55,7 @@
     background-color: rgba(112, 1, 215, 0.3);;
     overflow: hidden;
     margin: 0 1rem;
+    padding: 1rem;
 }
 
 .skill_info div::after {
@@ -58,6 +70,20 @@
     z-index: 1;
 }
 
+.skill {
+    width: 45vw;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+.skill li {
+    list-style: none;
+}
+
+.skill li:hover {
+    color: #7001d7;
+    cursor: pointer;
+}
 
 
 i {
