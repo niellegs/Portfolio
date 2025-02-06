@@ -23,6 +23,8 @@
 .left {
     transform: rotate(-90deg);
    translate: -45vw;
+   position: absolute;
+   z-index: 1;
 }
 
 .right {

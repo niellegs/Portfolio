@@ -2,6 +2,7 @@
     background-color: #110506;;
     width: 100vw;
     height: 70vh;
+    position: relative;
 } 
 
 .skill_menu {
@@ -88,4 +89,9 @@
 
 i {
    font-size: 4rem;
+}
+
+.teste {
+    margin-left: 45vw;
+    margin-top: 40vh;
 }

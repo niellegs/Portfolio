@@ -1,9 +1,11 @@
 import "./Hobbies.css";
+import SideTitle from "../SideTitle/SideTitle";
 
 
 function Hobbies() {
     return (
         <div className="container_hobbies display-flex direction-column align-center justify-center">
+            
             <h2 className="title">Hobbies</h2>
             <div className="hobbies display-flex justify-center align-center">
                 <div className="hobbie display-flex align-center justify-center direction-column">
@@ -23,6 +25,7 @@ function Hobbies() {
                     <p>Fotografia</p>
                 </div>
             </div>
+            
         </div>
     )
 }

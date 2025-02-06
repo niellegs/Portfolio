@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Skills.css";
+import SideTitle from "../SideTitle/SideTitle";
 
 function Skills() {
     const topics: string[] = ["Front-End", "Back-End", "Mobile", "Outros"];
@@ -32,6 +33,7 @@ function Skills() {
 
     return (
         <div className="skill_container">
+            <SideTitle text="Skills" side="left" className="teste"/>
             <div className="skill_menu">
                 {topics.map((topic) => (
                     <button key={topic} onClick={() => handleSkillClick(topic)}>
@@ -70,6 +72,7 @@ function Skills() {
                         ))}
                 </ul>
             </div>
+            
         </div>
     );
 }
