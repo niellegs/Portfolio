@@ -1,31 +1,25 @@
 import "./Hobbies.css";
 
-/* ASSETS*/
-import GameLogo from "../../assets/game.svg"
-import GymLogo from "../../assets/gym.svg"
-import BookLogo from "../../assets/book.svg"
-import CameraLogo from "../../assets/camera.svg"
-
 
 function Hobbies() {
     return (
-        <div className="container_hobbies">
-            <h2>Hobbies</h2>
+        <div className="container_hobbies display-flex direction-column align-center justify-center">
+            <h2 className="title">Hobbies</h2>
             <div className="hobbies display-flex justify-center align-center">
                 <div className="hobbie display-flex align-center justify-center direction-column">
-                    <img src={GameLogo} alt="" />
+                    <i className="fa-solid fa-gamepad"></i>
                     <p>Jogos</p>
                 </div>
                 <div className="hobbie display-flex align-center justify-center direction-column">
-                    <img src={GymLogo} alt="" />
+                    <i className="fa-solid fa-dumbbell"></i>
                     <p>Academia</p>
                 </div>
                 <div className="hobbie display-flex align-center justify-center direction-column">
-                    <img src={BookLogo} alt="" />
+                    <i className="fa-solid fa-book"></i>
                     <p>Leitura</p>
                 </div>
                 <div className="hobbie display-flex align-center justify-center direction-column">
-                    <img src={CameraLogo} alt="" />
+                    <i className="fa-solid fa-camera-retro"></i>
                     <p>Fotografia</p>
                 </div>
             </div>

@@ -1,6 +1,14 @@
 .container_hobbies {
-    background-color: black;
-    color: #7001d7;}
+    background-color: #110506;;
+    color: #7001d7;
+    width: 100vw;
+    height: 35vh;
+}
+
+.container_hobbies h2 {
+    color: antiquewhite;
+    margin-bottom: 3rem;
+}
 
 .hobbie {
     background-color: rgba(112, 1, 215, 0.1); /* Ajustado o ponto e vírgula */
@@ -8,4 +16,11 @@
     border: 1px solid #7001d7; /* Ordem padrão */
     width: 10rem;
     height: 10rem;
+}
+
+.hobbie:hover {
+    background-color: rgba(238, 17, 53, .3);
+    color: #EE1135;
+    border: 1px solid #EE1135;
+    cursor:default;
 }
