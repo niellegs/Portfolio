@@ -8,15 +8,29 @@
 
 .container_project div {
     margin-top: 2rem;
-    width: 85%;
-    height: 50%;
+    width: 80%;
+    height: 40%;
     background-color: brown;
+}
+
+.container_project h2, .container_project p {
+    color: antiquewhite;
 }
 
 .container_project h2 {
     margin-top: .5rem;
 } 
 
+.container_project p {
+    font-size: 1rem;
+    padding: 0 2rem;
+}
+
 .container_project i {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    color: #EE1135;
+}
+
+.container_project i:hover {
+    color: #7001D7;
 }

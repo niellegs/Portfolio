@@ -1,6 +1,9 @@
 import React, {useState} from "react";
-import Project from "../Project/Project";
 import "./Portfolio.css"
+
+// COMPONENTS
+import Project from "../Project/Project";
+import SideTitle from "../SideTitle/SideTitle";
 
 interface Portfolio {
     topic: string;
@@ -12,7 +15,7 @@ interface Portfolio {
 function Portfolio() {
     const topics: string[] = ["Front-End", "Back-End", "Mobile", "Outros"];
     const projects: Portfolio[] = [
-        {topic: "Back-End", title: "Autenticação com JWT e OAuth", description: "API segura com login por e-mail/senha e autenticação via Google e GitHub.", src: "https://www.google.com.br/?hl=pt-BR"},
+        {topic: "Back-End", title: "Pingos d'Arte", description: "API segura com login por e-mail/senha e autenticação via Google e GitHub.", src: "https://www.google.com.br/?hl=pt-BR"},
         {topic: "Front-End", title: "Shen Cuisine", description: "Site pessoal de receitas feito em PHP, CSS e JS", src: "https://www.google.com.br/?hl=pt-BR"}
     ];
 
@@ -22,7 +25,7 @@ function Portfolio() {
     
     return (
         <div className="portfolio_classname">
-            <h2>Portfolio</h2>
+            <SideTitle text="Portfolio" side="right" className="portfolio_sidetitle"/>
             <div className="portfolio_menu">
                 {topics.map((topic) => (
                     <button key={topic} onClick={() => setSelectedTopic(topic)}>
