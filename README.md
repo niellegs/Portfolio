@@ -12,13 +12,13 @@ A visualização da primeira versão dessa interface já é possível através d
 <br>
 2. Instale todas as dependências:
 <br>
-`npm i`
+npm i
 <br>
 3. Inicie a aplicação no localhost:
 <br>
 `npm run dev`
 
-# Hospedagem
+## Hospedagem
 
 Atualmente o site não está hospedado em nenhum local, mas nossos minions já estão trabalhando nisso.
 

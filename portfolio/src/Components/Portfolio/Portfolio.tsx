@@ -24,7 +24,7 @@ function Portfolio() {
     const filteredProjects = selectedTopic === "All" ? projects :projects.filter((p) => p.topic === selectedTopic);
     
     return (
-        <div className="portfolio_classname">
+        <div className="portfolio_classname" id="projects">
             <SideTitle text="Portfolio" side="right" className="portfolio_sidetitle"/>
             <div className="portfolio_menu">
                 {topics.map((topic) => (

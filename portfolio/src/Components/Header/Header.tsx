@@ -21,9 +21,9 @@ function Header() {
         <header className={`header display-flex space-between position-fixed align-center ${scrolled ? "scrolled" : ""}`}>
             <img src={Logo} alt="logo" />
             <ul className="display-flex">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#aboutme">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </header>
     );

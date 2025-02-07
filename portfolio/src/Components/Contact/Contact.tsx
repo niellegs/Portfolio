@@ -61,7 +61,7 @@ function Contact() {
   }, [formData]);
 
   return (
-    <div className="contact_container">
+    <div className="contact_container" id="contact">
       <div className="form_contact display-flex space-around align-center">
         <div className="form_text">
           <h2 className="title">Entre em contato</h2>

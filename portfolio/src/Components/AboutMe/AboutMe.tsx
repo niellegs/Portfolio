@@ -18,7 +18,7 @@ function AboutMe() {
     }, []);
 
     return (
-        <div className="container_aboutme display-flex justify-center align-center">
+        <div className="container_aboutme display-flex justify-center align-center" id="aboutme">
             <SideTitle text="Sobre Mim" side="right" />
             <div className="display-flex align-center justify-center">
                 <div className="aboutme_photo">
