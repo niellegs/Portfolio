@@ -14,7 +14,7 @@
 }
 
 .aboutme_photo {
-    background-color: blue;
+    background: url("../../assets/_.jpeg") center/cover;
     width: 30%;
     height: 70%;
     margin: 2rem;
@@ -23,6 +23,7 @@
 .aboutme_title p, .aboutme_title h2 {
     line-height: 2rem;
 }
+
 
 .aboutme_text {
     width: 60%;
@@ -34,9 +35,11 @@
 .aboutme_text button{
     width: 50%;
     height: 10%;
+    color: rgb(238, 17, 53);
     background-color: rgba(0,0,0, 0.2);
     border: 1px solid rgb(238, 17, 53);
     font-size: 1.2rem;
+    margin-top: 9.25vw;
 }
 
 .aboutme_text p {

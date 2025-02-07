@@ -9,6 +9,7 @@ import Skills from "../../Components/Skills/Skills";
 import Portfolio from "../../Components/Portfolio/Portfolio";
 import Contact from "../../Components/Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
+import ColorfullLine from "../../Components/ColorfulLine/ColorfullLine";
 
 function Home() {
     return (
@@ -18,7 +19,9 @@ function Home() {
         <AboutMe />
         <Hobbies />
         <Skills />
+        <ColorfullLine />
         <Portfolio />
+        <ColorfullLine />
         <Contact />
         <Footer />
         </>

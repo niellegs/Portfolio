@@ -30,7 +30,7 @@ function AboutMe() {
                         <h2 className="title">Danielle Gomes</h2>
                         <p>Desenvolvedora Full-Stack</p>
                     </div>
-                    <p>Atualmente sendo uma estudante viciada em cafeína e livros, procuro desenvolver sites de alta qualidade concentrados em equilibrar beleza e usabilidade. </p>
+                    <p>Entre linhas de código e páginas de livros, transformo ideias em interfaces que encantam e funcionam. Meu objetivo? Criar experiências digitais que sejam tão intuitivas quanto irresistíveis.</p>
                     <button>
                         <a href="https://br.fiverr.com/ughhlynx?public_mode=true" target="_blank">Fiverr</a>
                     </button>
