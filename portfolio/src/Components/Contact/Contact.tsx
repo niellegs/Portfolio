@@ -62,7 +62,7 @@ function Contact() {
 
   return (
     <div className="contact_container">
-      <div className="form_contact display-flex space-around ">
+      <div className="form_contact display-flex space-around align-center">
         <div className="form_text">
           <h2 className="title">Entre em contato</h2>
           <p>Tem um projeto em mente ou uma proposta para trabalharmos juntos? Me mande uma mensagem!</p>
@@ -74,7 +74,7 @@ function Contact() {
                   <label>Nome</label>
                   <input
                   type="text"
-                  className="form_input"
+                  className="form_input paragraph"
                   name="name"
                   id="name"
                   value={formData.name}
@@ -85,7 +85,7 @@ function Contact() {
                   <label>Email</label>
                   <input
                 type="email"
-                className="form_input"
+                className="form_input paragraph"
                 name="email"
                 id="email"
                 value={formData.email}
@@ -96,7 +96,7 @@ function Contact() {
                   <label>Assunto</label>
                   <input
                 type="text"
-                className="form_input"
+                className="form_input paragraph"
                 name="subject"
                 id="subject"
                 value={formData.subject}
@@ -108,6 +108,7 @@ function Contact() {
               <label>Mensagem</label>
               <textarea
                 name="message"
+                className="paragraph"
                 id="message"
                 value={formData.message}
                 onChange={handleChange}
@@ -117,7 +118,7 @@ function Contact() {
           <button type="submit" disabled={formSubmitLoading}>
             {formSubmitLoading ? "Enviando..." : "Enviar"}
           </button>
-          {formSubmitted && <p>Mensagem enviada com sucesso!</p>}
+          {formSubmitted && <p className="success">Mensagem enviada com sucesso!</p>}
         </form>
       </div>
     </div>

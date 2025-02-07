@@ -25,6 +25,10 @@ body {
   font-family: "Black Mango";
 }
 
+.paragraph {
+  font-family: "Garret";
+}
+
 /* PRIMARY COLOR */
 .primary-background {
   background-color: #EE1135;

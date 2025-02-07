@@ -1,7 +1,7 @@
 .skill_container {
-    background-color: #110506;;
+    background-color: #12050E;
     width: 100vw;
-    height: 90vh;
+    height: 75vh;
     position: relative;
 } 
 
@@ -79,6 +79,8 @@
 
 .skill li {
     list-style: none;
+    width: 6rem;
+    height:6rem
 }
 
 .skill li:hover {

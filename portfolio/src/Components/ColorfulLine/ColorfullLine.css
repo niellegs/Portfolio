@@ -1,7 +1,7 @@
 .line {
     width: 100vw;
-    height: 2vh;
-    background: linear-gradient(90deg, #EE1135, #7001d7);
+    height: 1vh;
+    background: linear-gradient(90deg, #EE1135, #422B57, #2B2233);
     background-size: 200% 100%;
     animation: lineGradient 3s infinite linear;
 }

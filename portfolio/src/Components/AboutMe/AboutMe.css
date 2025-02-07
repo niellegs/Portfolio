@@ -1,14 +1,14 @@
 .container_aboutme {
     background-color: #110506;
     width: 100vw;
-    height: 100vh;
-    color: rgb(255,255,242);
+    height: 90vh;
+    color: #E5D0AC;
     position: relative;
 }
 
 .container_aboutme > div {
     width: 75%;
-    height: 75%;
+    height: 85%;
     background-color: rgba(238, 17, 53, .3);
     border: rgb(238, 17, 53) solid .1rem;
 }
@@ -40,6 +40,10 @@
     border: 1px solid rgb(238, 17, 53);
     font-size: 1.2rem;
     margin-top: 9.25vw;
+}
+
+.aboutme_text button a {
+    color: rgb(238, 17, 53);
 }
 
 .aboutme_text p {

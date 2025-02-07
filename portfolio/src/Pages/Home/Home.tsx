@@ -18,8 +18,8 @@ function Home() {
         <Hero />
         <AboutMe />
         <Hobbies />
-        <Skills />
         <ColorfullLine />
+        <Skills />
         <Portfolio />
         <ColorfullLine />
         <Contact />
