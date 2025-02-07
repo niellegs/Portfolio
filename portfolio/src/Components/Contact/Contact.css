@@ -15,8 +15,13 @@
     font-size: 1.5rem;
 }
 
-.form_contact div {
-    width: 40vw;
+.form_contact input , .form_contact textarea{
+    width: 25vw;
+}
+
+.form_text {
+    padding-left: 5rem;
+    width: 30vw;
 }
 
 .form_contact label {
@@ -26,6 +31,10 @@
 .form-group div input, .form-group div textarea  {
     background-color: rgba(238, 17, 53, 0.5);
     color: antiquewhite;
+}
+
+.form-group {
+    margin-left:-8rem;
 }
 
 .contact_container button {
@@ -40,7 +49,7 @@
 
 .contact_container button:hover {
     box-shadow: rgba(238, 17, 53) .5rem .4rem;
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 input, textarea {

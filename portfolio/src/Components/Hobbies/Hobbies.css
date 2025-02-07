@@ -15,8 +15,8 @@
     background-color: rgba(112, 1, 215, 0.1); /* Ajustado o ponto e vírgula */
     text-align: center;
     border: 1px solid #7001d7; /* Ordem padrão */
-    width: 10rem;
-    height: 10rem;
+    width: 18.5vw;
+    height: 18.5vh;
 }
 
 .hobbie:hover {

@@ -15,7 +15,7 @@
 }
 
 .skill_menu button {
-    width: 20vw;
+    width:18.5vw;
     height: 5vh;
     font-size: 1.5rem;
     border: rgba(238, 17, 53) .1rem solid;
@@ -37,7 +37,7 @@
 
 
 .skill_info {
-    width: 40vw;
+    width: 33vw;
     color: #7001d7;
     text-align: center;
     padding: 1rem 3rem;
