@@ -61,50 +61,54 @@ function Contact() {
   }, [formData]);
 
   return (
-    <div className="container_contact">
-      <div className="form_contact display-flex">
+    <div className="contact_container">
+      <div className="form_contact display-flex space-around ">
         <div className="form_text">
-          <h2>Entre em contato</h2>
+          <h2 className="title">Entre em contato</h2>
           <p>Tem um projeto em mente ou uma proposta para trabalharmos juntos? Me mande uma mensagem!</p>
         </div>
-        <form onSubmit={handleSubmit}>
-          <div className="form-group display-flex direction-column">
+        <form onSubmit={handleSubmit} autoComplete="off">
+          <div className="form-group display-flex direction-column align-center ">
             <div>
-              <input
-                type="text"
-                className="form_input"
-                name="name"
-                id="name"
-                placeholder="Nome"
-                value={formData.name}
-                onChange={handleChange}
-              />
-              <input
+                <div className="field display-flex direction-column">
+                  <label>Nome</label>
+                  <input
+                  type="text"
+                  className="form_input"
+                  name="name"
+                  id="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                />
+                </div>
+                <div className="field display-flex direction-column">
+                  <label>Email</label>
+                  <input
                 type="email"
                 className="form_input"
                 name="email"
                 id="email"
-                placeholder="Email"
                 value={formData.email}
                 onChange={handleChange}
               />
-            </div>
-            <div>
-              <input
+                </div>
+                <div className="field display-flex direction-column">
+                  <label>Assunto</label>
+                  <input
                 type="text"
                 className="form_input"
                 name="subject"
                 id="subject"
-                placeholder="Assunto"
                 value={formData.subject}
                 onChange={handleChange}
               />
+                </div>
             </div>
-            <div>
+            <div className="field display-flex direction-column">
+              <label>Mensagem</label>
               <textarea
                 name="message"
                 id="message"
-                placeholder="Mensagem"
                 value={formData.message}
                 onChange={handleChange}
               ></textarea>
