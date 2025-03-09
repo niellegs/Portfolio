@@ -1,8 +1,10 @@
 .portfolio_classname {
     background-color: #12050E;
     width: 100vw;
-    height: 90vh;
+    height: auto;
+    padding-bottom: 2rem;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .portfolio_menu {
@@ -37,4 +39,12 @@
 .portfolio_sidetitle {
     margin-left: 45vw;
     margin-top: 45vh;
+}
+
+.project_list {
+    flex-wrap: wrap;
+}
+
+.project_list div {
+    margin: 1.5rem 0;
 }

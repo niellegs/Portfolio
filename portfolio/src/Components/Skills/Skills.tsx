@@ -16,7 +16,10 @@ function Skills() {
     const skills: Skill[] = [
         { topic: "Front-End", skill: "HTML", description: "HTML é uma linguagem utilizada para dar corpo às páginas web.", percentage: 90, src: "fa-brands fa-html5" },
         { topic: "Front-End", skill: "CSS", description: "Cascading Style Sheets é um mecanismo para adicionar estilos (cores, fontes, espaçamento, etc.) a uma página web.", percentage: 90, src: "fa-brands fa-css3" },
-        { topic: "Front-End", skill: "Javascript", description: "(às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser", percentage: 70, src: "fa-brands fa-js" }
+        { topic: "Front-End", skill: "Javascript", description: "(às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser", percentage: 70, src: "fa-brands fa-js" },
+        { topic: "Front-End", skill: "React.js", description: "React é um framework Javascript criado pela Meta que é usado para criar UI em aplicativos web.", percentage: 30, src:"fa-brands fa-react"},
+        {topic: "Mobile", skill: "React Native", description: "React Native é uma estrutura de aplicativo móvel popular, baseada em javascript, que permite criar aplicativos móveis renderizados nativamente para iOS e Android." ,percentage: 20, src:"fa-brands fa-react"},
+
     ];
 
     const [selectedTopic, setSelectedTopic] = useState<string | null>(null);

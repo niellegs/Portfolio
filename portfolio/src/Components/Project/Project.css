@@ -1,36 +1,40 @@
 .container_project {
     width: 350px;
-    height: 50vh;
+    height: 55vh;
     text-align: center;
-    background-color: rgba(238, 17, 53, 0.3);
     border: rgba(238, 17, 53) solid .1rem;
+    position: relative;
 }
 
-.container_project div {
-    margin-top: 2rem;
-    width: 80%;
-    height: 40%;
-    background-color: brown;
+.container_project::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    filter: brightness(0.6);
+    z-index: -1;
 }
 
 .container_project h2, .container_project p {
     color: #E5D0AC;
-}
+    position: relative;
+    z-index: 1;
+    margin: 1rem;
 
-.container_project h2 {
-    margin-top: .5rem;
-} 
-
-.container_project p {
-    font-size: 1rem;
-    padding: 0 2rem;
 }
 
 .container_project i {
     font-size: 2rem;
     color: #EE1135;
+    position: relative;
+    z-index: 1;
 }
 
 .container_project i:hover {
     color: #7001D7;
+}
+
+.img_bg_project {
+    width: 70%;
+    height: 50%;;
 }

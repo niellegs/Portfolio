@@ -1,22 +1,27 @@
 import React, {useState} from "react";
 import "./Portfolio.css"
+import manhattanCoffe from "../../assets/project1.png";
+import onProgress from "../../assets/on_progress.gif";
 
 // COMPONENTS
 import Project from "../Project/Project";
 import SideTitle from "../SideTitle/SideTitle";
 
 interface Portfolio {
+    img: string; // Adicionei esta linha
     topic: string;
     title: string;
     description: string;
     src: string;
 }
 
+
 function Portfolio() {
     const topics: string[] = ["Front-End", "Back-End", "Mobile", "Outros"];
     const projects: Portfolio[] = [
-        {topic: "Back-End", title: "Pingos d'Arte", description: "API segura com login por e-mail/senha e autenticação via Google e GitHub.", src: "https://www.google.com.br/?hl=pt-BR"},
-        {topic: "Front-End", title: "Shen Cuisine", description: "Site pessoal de receitas feito em PHP, CSS e JS", src: "https://www.google.com.br/?hl=pt-BR"}
+        {img: manhattanCoffe, topic: "Front-End",title: "Manhattan Coffee", description: "Um site para uma cafeteria em HTML e CSS.", src: "https://niellegs.github.io/manhattan-coffee-house/#"},
+        {img: onProgress, topic: "Mobile", title: "Bar do Dé", description: "Um cardápio digital para um bar em React Native.", src: "https://github.com/niellegs/bar_do_de_mobile"}
+        
     ];
 
     const [selectedTopic, setSelectedTopic] = useState<string>("All"); 
@@ -35,7 +40,14 @@ function Portfolio() {
             </div>
             <div className="project_list display-flex align-center space-evenly">
                 {filteredProjects.map((project) => (
-                     <Project key={project.title} title={project.title} description={project.description} src={project.src}/>
+                     <Project
+                     key={project.title}
+                     img={project.img}
+                     title={project.title}
+                     description={project.description}
+                     src={project.src}
+                 />
+                 
                 ))}
             </div>
         </div>
