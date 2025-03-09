@@ -1,6 +1,4 @@
 import "./Hobbies.css";
-import SideTitle from "../SideTitle/SideTitle";
-
 
 function Hobbies() {
     return (

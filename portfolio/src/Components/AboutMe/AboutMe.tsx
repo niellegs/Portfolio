@@ -1,17 +1,16 @@
 import "./AboutMe.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import SideTitle from "../SideTitle/SideTitle";
 
 function AboutMe() {
+    const [scrollPosition, setScrollPosition] = useState(0);
+
     useEffect(() => {
         const handleScroll = () => {
-            const aboutMeSection = document.querySelector('.container_aboutme') as HTMLElement;
-            
-            const scrollPosition = window.scrollY;
+            setScrollPosition(window.scrollY);
         };
 
         window.addEventListener('scroll', handleScroll);
-
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
@@ -21,9 +20,7 @@ function AboutMe() {
         <div className="container_aboutme display-flex justify-center align-center" id="aboutme">
             <SideTitle text="Sobre Mim" side="right" />
             <div className="display-flex align-center justify-center">
-                <div className="aboutme_photo">
-                    {/* Sua foto aqui */}
-                </div>
+                <div className="aboutme_photo"></div>
                 <div className="aboutme_text">
                     <div className="aboutme_title">
                         <p>_whois</p>
@@ -31,8 +28,9 @@ function AboutMe() {
                         <p>Desenvolvedora Full-Stack</p>
                     </div>
                     <p>Entre linhas de código e páginas de livros, transformo ideias em interfaces que encantam e funcionam. Meu objetivo? Criar experiências digitais que sejam tão intuitivas quanto irresistíveis.</p>
+                    <p>Posição do scroll: {scrollPosition}px</p> {/* Agora usamos scrollPosition */}
                     <button>
-                        <a href="https://br.fiverr.com/ughhlynx?public_mode=true" target="_blank">Fiverr</a>
+                        <a href="https://br.fiverr.com/ughhlynx?public_mode=true" target="_blank" rel="noopener noreferrer">Fiverr</a>
                     </button>
                     <button>
                         <a href="#">99jobs</a>

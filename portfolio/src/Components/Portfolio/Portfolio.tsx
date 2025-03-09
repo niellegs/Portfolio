@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import "./Portfolio.css"
 import manhattanCoffe from "../../assets/project1.png";
 import onProgress from "../../assets/on_progress.gif";
