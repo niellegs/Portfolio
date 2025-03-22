@@ -66,3 +66,28 @@ a i {
     50% { color: #7001d7; }
     100% { color: #EE1135; }
 }
+
+@media screen and (max-width:350px) {
+    
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+
+    .container-info button {
+        height: 4rem;
+        width: 4rem;
+        font-size: 1rem;
+    }
+
+    .container-social a i{
+        font-size: 2rem;
+        padding-top: ;
+    }
+
+    .container-social {
+        margin-bottom: 1.5rem;
+    }
+}

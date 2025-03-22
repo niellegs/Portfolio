@@ -31,3 +31,15 @@ header a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
 }
+
+@media screen and (max-width:350px) {
+    header ul li {
+        width: 17vw;
+        font-size: .7rem;
+    }
+
+    header img {
+        width: 2.5rem;
+        height: auto;
+    }
+}

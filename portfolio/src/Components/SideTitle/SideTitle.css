@@ -31,3 +31,16 @@
     transform: rotate(90deg);
     translate: 45vw;
 }
+
+@media screen and (max-width:350px) {
+
+    .text {
+        width: 5rem;
+        font-size: 1rem;
+    }
+    .text::before {
+        width: 0.1rem;
+        position: absolute;
+        left: 5.6rem; /* Ajusta a posição da linha */
+    }
+}
