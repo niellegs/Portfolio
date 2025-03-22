@@ -48,3 +48,14 @@
 .project_list div {
     margin: 1.5rem 0;
 }
+
+@media screen and (max-width:600px) {
+    .portfolio_menu button {
+        font-size: .9rem;
+    }
+
+    .portfolio_sidetitle {
+        margin-left: 37vw;
+        margin-top: 80vh;
+    }
+}
