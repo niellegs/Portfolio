@@ -1,7 +1,7 @@
 .contact_container {
     background-color: #110506;;
     width: 100vw;
-    height: 70vh;
+    height: auto;
     padding-top: 10vh;
 } 
 
@@ -65,3 +65,36 @@ input, textarea {
     padding: 1rem 0 ;
     margin: .3rem;
 } 
+
+@media screen and (max-width:600px) {
+
+    .form-text {
+        width: 50vw;
+    }
+    .form_text p{
+        font-size: .8rem;
+        width: 25vw;
+        
+    }
+    .form_text h2 {
+        font-size: 1rem;
+    }
+    .form_contact input , .form_contact textarea{
+        width: 25vw;
+    }
+    .form-group {
+        margin-left: 0;
+    }
+
+    .form-group div input, .form-group div textarea  {
+        padding: .7rem;
+        font-size: .8REM;
+        color: #E5D0AC;
+    }
+    .form_contact label {
+        font-size: .8rem;
+    }
+    .contact_container button  {
+        width: 6.5rem;
+    }
+}
