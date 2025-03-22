@@ -1,7 +1,7 @@
 .skill_container {
     background-color: #12050E;
     width: 100vw;
-    height: 75vh;
+    height: auto;
     position: relative;
 } 
 
@@ -75,6 +75,7 @@
     width: 45vw;
     height: 50vh;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .skill li {
@@ -96,4 +97,35 @@ i {
 .teste {
     margin-left: 45vw;
     margin-top: 45vh;
+}
+
+@media screen and (max-width:600px) {
+    .skill_menu button {
+        font-size: .9rem;
+    }
+    .skill_info {
+        width: 65vw;
+        padding-right: 1rem;
+    }
+
+    .skill_info p {
+        font-size: .7rem;
+    }
+
+    .skill_info h2 {
+        font-size: 1rem;
+    }
+    
+    .skill {
+        width: 20vw;
+    }
+    .skill i {
+        font-size: 2rem;
+    }
+
+    .skill li {
+        list-style: none;
+        width: 3rem;
+        height:20px;
+    }
 }
