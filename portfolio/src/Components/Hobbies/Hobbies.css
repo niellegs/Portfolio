@@ -32,7 +32,16 @@
 }
 
 @media screen and (max-width:600px) {
+
     .container_hobbies {
         height: auto;
+    }
+
+    .hobbie p {
+        font-size: .7rem;
+    }
+
+    .hobbie i{
+        font-size: 2rem;
     }
 }
