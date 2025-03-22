@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import SideTitle from "../SideTitle/SideTitle";
 
 function AboutMe() {
-    const [scrollPosition, setScrollPosition] = useState(0);
+    const [, setScrollPosition] = useState(0);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -28,7 +28,6 @@ function AboutMe() {
                         <p>Desenvolvedora Full-Stack</p>
                     </div>
                     <p>Entre linhas de código e páginas de livros, transformo ideias em interfaces que encantam e funcionam. Meu objetivo? Criar experiências digitais que sejam tão intuitivas quanto irresistíveis.</p>
-                    <p>Posição do scroll: {scrollPosition}px</p> {/* Agora usamos scrollPosition */}
                     <button>
                         <a href="https://br.fiverr.com/ughhlynx?public_mode=true" target="_blank" rel="noopener noreferrer">Fiverr</a>
                     </button>

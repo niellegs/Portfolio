@@ -49,3 +49,21 @@
 .aboutme_text p {
     font-size: 1.1rem;
 }
+
+@media screen and (max-width:600px) {
+    .container_aboutme {
+        height: 150vh;
+    }
+    .aboutme_text p {
+        font-size: .7rem;
+    }
+
+    .aboutme_text {
+        padding: .5rem;
+    }
+    .aboutme_text button {
+        width: 3rem;
+        font-size: .75rem;
+        margin-top: 0;
+    }
+}
