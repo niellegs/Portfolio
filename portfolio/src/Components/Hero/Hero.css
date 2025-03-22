@@ -67,7 +67,7 @@ a i {
     100% { color: #EE1135; }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:600px) {
     
     h1 {
         font-size: 2rem;
@@ -84,7 +84,6 @@ a i {
 
     .container-social a i{
         font-size: 2rem;
-        padding-top: ;
     }
 
     .container-social {

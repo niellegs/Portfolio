@@ -32,7 +32,7 @@
     translate: 45vw;
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:600px) {
 
     .text {
         width: 5rem;
