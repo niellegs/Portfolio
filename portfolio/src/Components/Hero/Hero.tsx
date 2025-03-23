@@ -5,6 +5,9 @@ import "./Hero.css";
 import SideTitle from "../SideTitle/SideTitle";
 import { useEffect } from "react";
 
+// ASSETS
+import Curriculum from "../../assets/curriculum-vitae.pdf";
+
 function Hero() {
     useEffect(() => {
         const handleScroll = () => {
@@ -47,7 +50,7 @@ function Hero() {
                 <p>(.n) o dev que habita em mim saúda o dev que habita em você.</p>
                 <div className="display-flex space-evenly">
                     <button className="primary-button">
-                        <a href="#" download="meu-curriculo.pdf">Baixar CV</a>
+                        <a href={Curriculum} download="curriculum_vitae.pdf">Baixar CV</a>
                     </button>
                     <button><Link to="/blog">Blog</Link></button>
                 </div>
