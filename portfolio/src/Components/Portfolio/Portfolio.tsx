@@ -1,6 +1,5 @@
 import {useState} from "react";
 import "./Portfolio.css"
-import manhattanCoffe from "../../assets/project1.png";
 import onProgress from "../../assets/on_progress.gif";
 
 // COMPONENTS
@@ -19,8 +18,8 @@ interface Portfolio {
 function Portfolio() {
     const topics: string[] = ["Front-End", "Back-End", "Mobile", "Outros"];
     const projects: Portfolio[] = [
-        {img: manhattanCoffe, topic: "Front-End",title: "Manhattan Coffee", description: "Um site para uma cafeteria em HTML e CSS.", src: "https://niellegs.github.io/manhattan-coffee-house/#"},
-        {img: onProgress, topic: "Mobile", title: "Bar do Dé", description: "Um cardápio digital para um bar em React Native.", src: "https://github.com/niellegs/bar_do_de_mobile"}
+        {img: onProgress, topic: "Mobile",title: "Summit", description: "Aplicação multi plataforma focada no gerenciamento de equipes em ASP.NET e Reacr.", src: "#"},
+        {img: onProgress, topic: "Front-End", title: "NoBackup", description: "Website que expõe vulnerabilidades com base na API do CVE (Common Vulnerabilities and Exposures).", src: "#"}
         
     ];
 

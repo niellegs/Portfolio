@@ -51,7 +51,7 @@
 
 .skill_info div{
     position: relative;
-    width: 40%;
+    width: 0;
     height: 2rem;
     background-color: rgba(112, 1, 215, 0.3);;
     overflow: hidden;
@@ -65,7 +65,7 @@
     top: 50%; 
     left: 0;
     transform: translateY(-50%);
-    width: 90%;;
+    width: 100%;;
     height: 2rem;
     background-color: #7001d7;
     z-index: 1;
@@ -104,8 +104,9 @@ i {
         font-size: .9rem;
     }
     .skill_info {
-        width: 65vw;
-        padding-right: 1rem;
+        width: 50vw;
+        padding: 0rem 4rem;
+        text-align: left;
     }
 
     .skill_info p {
