@@ -52,7 +52,7 @@
 
 @media screen and (max-width:600px) {
     .container_aboutme {
-        height: 100vh;
+        height: 125vh;
     }
     .container_aboutme div {
         display: block;
