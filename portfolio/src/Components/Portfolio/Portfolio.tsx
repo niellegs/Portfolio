@@ -18,7 +18,7 @@ interface Portfolio {
 function Portfolio() {
     const topics: string[] = ["Front-End", "Back-End", "Mobile", "Outros"];
     const projects: Portfolio[] = [
-        {img: onProgress, topic: "Mobile",title: "Summit", description: "Aplicação multi plataforma focada no gerenciamento de equipes em ASP.NET e Reacr.", src: "#"},
+        {img: onProgress, topic: "Mobile",title: "Summit", description: "Aplicação multi plataforma focada no gerenciamento de equipes em ASP.NET e React.", src: "#"},
         {img: onProgress, topic: "Front-End", title: "NoBackup", description: "Website que expõe vulnerabilidades com base na API do CVE (Common Vulnerabilities and Exposures).", src: "#"}
         
     ];
